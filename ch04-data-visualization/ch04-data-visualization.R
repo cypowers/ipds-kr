@@ -8,7 +8,7 @@ library(gapminder)
 ?gapminder
 gapminder
 
-head(gapminder);
+head(gapminder)
 
 tail(gapminder)
 
