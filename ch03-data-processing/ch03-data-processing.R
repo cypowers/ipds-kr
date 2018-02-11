@@ -13,7 +13,7 @@ data()
 # curl https://archive.ics.uci.edu/ml/machine-learning-databases/housing/housing.names > housing.names
 
 boston <- read.table("housing.data")
-library(dplyr)
+library(dplyr);
 glimpse(boston)
 
 names(boston) <- c('crim', 'zn', 'indus', 'chas', 'nox', 'rm', 'age', 'dis', 'rad', 'tax', 'ptratio', 'black', 'lstat', 'medv')
